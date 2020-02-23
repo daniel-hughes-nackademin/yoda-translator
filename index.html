@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yoda Translator Test</title>
+</head>
+<body>
+<h1>Yoda Translator</h1>
+
+<form class="yoda-form" onsubmit="event.preventDefault();">
+    <label for="yoda-field">Enter text to translate to Yoda's way of speaking</label>
+    <input type="text" id="yoda-field" placeholder="Example: Master Obiwan has lost a planet.">
+
+    <input type="submit" value="Translate!" id="yoda-button">
+</form>
+
+<h4 id="error-message">Error message</h4>
+
+<h4 id="translation">Translation</h4>
+
+
+<script src="main.js"></script>
+</body>
+</html>
